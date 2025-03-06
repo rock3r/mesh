@@ -1,0 +1,20 @@
+<idea-plugin>
+    <id>des.c5inco.mesh.ijplugin</id>
+    <name>Mesh</name>
+    <vendor url="https://github.com/c5inco/Mesh">Chris Sinco</vendor>
+
+    <description><![CDATA[Helps you to create mesh gradients in Compose.]]></description>
+
+    <dependencies>
+        <plugin id="com.intellij.modules.platform"/>
+        <module name="intellij.platform.jewel.foundation"/>
+        <module name="intellij.platform.jewel.ui"/>
+        <module name="intellij.platform.jewel.ideLafBridge"/>
+        <module name="intellij.libraries.compose.foundation.desktop"/>
+        <module name="intellij.libraries.skiko"/>
+    </dependencies>
+
+    <actions resource-bundle="MeshBundle">
+        <action id="des.c5inco.mesh.dialog" class="des.c5inco.mesh.ijplugin.MeshWindowAction"/>
+    </actions>
+</idea-plugin>

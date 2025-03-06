@@ -1,4 +1,5 @@
 rootProject.name = "Mesh"
+
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 pluginManagement {
@@ -30,3 +31,4 @@ dependencyResolutionManagement {
 }
 
 include(":composeApp")
+include(":ij-plugin")
